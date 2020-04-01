@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Барбершоп "Бородинский"</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="barbermain.css">
+</head>
+<body>
+	<header class="main__header">
+		<div class="container">
+				<div class="dropdown">
+					<a href="#" class="active">Главная</a>
+					<a href="#">Прайс-лист</a>
+					<a href="#">Магазин</a>
+					<a href="#">Новости</a>
+					<a href="#">Контакты</a>
+					<a href="#">Записаться</a>
+				</div>
+			<section class="main__navigation">
+				<div class="navbar_left">
+						<a href="#" class="navbar_left__link">Навигация</a>
+					</div>
+				<ul class="main__navigation_left">
+					<li>
+						<a href="#">Информация</a>
+					</li>
+					<li>
+						<a href="#">Новости</a>
+					</li>
+					<li>
+						<a href="barberprice.html#">Прайс-лист</a>
+					</li>
+					<li>
+						<a href="file:///Users/anzelazuravleva/Documents/html/barbercatalog.html">Магазин</a>
+					</li>
+					<li>
+						<a href="#">Контакты</a>
+					</li>
+				</ul>
+				<ul class="main__navigation_right">
+					<li>
+						<a class="login" href="#">Вход</a>
+					</li>
+				</ul>
+			</section>
+		</div>
+	</header>
+	<main class="main__information">
+		<div class="container">
+			<div class="mainlogo"> 
+				<img src="img/log.png" width="368" height="201" alt="Логотип">
+			</div>
+			<section class="advantages">
+				<ul>
+					<li>
+						<h3 class="main__tittle">Быстро</h3>
+						<p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы - счастливый обладатель стильной стрижки-минутки!</p>
+					</li>
+					<li>
+						<h3 class="main__tittle">Круто</h3>
+						<p>Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино! Во всяком случае внешне.</p>
+					</li>
+					<li>
+						<h3 class="main__tittle">Дорого</h3>
+						<p>Наши мастера — профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает определенный статус?</p>
+					</li>
+				</ul>
+			</section>
+			<div class="block__view">
+				<section class="news left">
+					<h3 class="main__tittle">Новости</h3>
+					<ul class="news_preview">
+						<li>
+							<p>Нам наконец завезли ягермайстер! Теперь вы можете пропустить стаканчик во время стрижки.</p>
+							<time datetime="2016-01-11">11 января</time>
+						</li>
+						<li>
+							<p>В нашей команде пополнение, Борис «Бритва» Стригунец, обладатель множества титулов и наград пополнил наши стройные ряды</p>
+							<time datetime="2016-01-18">18 января</time>
+						</li>
+					</ul>
+					<a class="btn" href="#">Все новости</a>
+				</section>
+				<section class="gallery right">
+					<h3 class="main__tittle">Фотогалерея</h3>
+					<img src="img/photo-1.jpg" width="300" height="180" alt="Галерея">
+					<div class="gallery_btn">
+						<button class="btn gallery-prev" type="button">Назад</button>
+						<button class="btn gallery-next" type="button">Вперёд</button>
+					</div>
+				</section>
+			</div>
+			<div class="block__view">
+				<section class="contact_information left">
+					<h3 class="main__tittle">Контактная информация</h3>
+					<p>
+						Барбершоп «Бородинский» <br>
+						Адрес: Г. Санкт-петербург, Б. Конюшенная, Д. 19/8. <br>
+						Телефон: +7 (495) 666-02-66.
+					</p>
+					<p>
+						Время работы <br>
+						пн - пт: с 10:00 до 22:00<br>
+						сб - вс: с 10:00 до 19:00
+					</p>
+					<div class="gallery_btn">
+						<a class="btn open_map" href="#">Как проехать</a>
+						<a class="btn" href="#">Обратная связь</a>
+					</div>
+				</section>
+				<section class="record right">
+					<h3 class="main__tittle">Записаться</h3>
+					<p>Укажите желаемую дату и время и мы свяжемся <br>
+					с вами для подтверждения брони</p>
+					<form class="record_form" action="#" method="get">
+						<input type="text" class="texttype" name="date" value="" placeholder="Дата">
+						<input type="text" class="texttype" name="time" value="" placeholder="Время">
+						<input type="text" class="texttype" name="name" value="" placeholder="Ваше Имя">
+						<input type="text" class="texttype" name="phone" value="" placeholder="Телефон">
+						<button class="btn" type="submit">Отправить</button>
+					</form>
+				</section>
+			</div>
+		</div>
+	</main>
+	<footer class="main__footer">
+		<div class="container">
+			<div class="main__footer_layout">
+				<section class="main__footer_contacts">
+					<p>
+						Барбершоп «Бородинский» <br>
+						Адрес: Г. Санкт-Петербург, Б. Конюшенная, Д. 19/8. <br>
+						<a href="#">Как нас найти?</a> <br>
+						Телефон: +7 (495) 666-02-66.
+					</p>
+				</section>
+				<section class="main__footer_social">
+					<p>давайте дружить!</p>
+					<a class="social_btn vk" href="#">Вконтакте</a>
+					<a class="social_btn fb" href="#">Фэйсбук</a>
+					<a class="social_btn inst" href="#">Инстаграм</a>
+				</section>
+				<section class="main__footer_copyright">
+					<p>разработано</p>
+					<a class="btn" href="#">htmlacademy</a>
+				</section>
+			</div>
+		</div>
+	</footer>
+	<div class="popup_form">
+		<div class="modal_content">
+			<button class="modal_content_close" type="button" title="Закрыть">Закрыть</button>
+			<h2 class="modal_content_tittle">Личный кабинет</h2>
+			<p>Введите свой логин и пароль</p>
+			<form class="login-form" action="#" method="post">
+				<input class="icon-user" type="text" name="login" placeholder="Логин">
+				<input class="icon-password" type="password" name="password" placeholder="Пароль">
+				<label class="login-checkbox">
+					<input type="checkbox" name="remember">
+					<span class="checkbox-indicator"></span>
+					Запомните меня
+				</label>
+				<a class="restore" href="#">Я забыл пароль</a>
+				<button class="btn" type="submit">Войти</button>
+			</form>
+		</div>
+	</div>
+	<div class="popup_map">
+			<div class="modal_content_map">
+				<button class="modal_content_close" type="button" title="Закрыть">Закрыть</button>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3997.2487106903586!2d30.319756328191858!3d59.938375208699554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1580382011133!5m2!1sru!2sru" width="766" height="561" frameborder="0" style="border:0;" allowfullscreen></iframe>
+			</div>
+		</div>
+	<script src="popup.js"></script>
+</body>
+</html>
